@@ -262,19 +262,3 @@ SelfHealOS explores how system monitoring, machine learning, and automated recov
 
 ---
 
-## 👥 Contributors
-
-Add the names and GitHub profiles of your project team members here.
-
-* Contributor 1
-* Contributor 2
-* Contributor 3
-* Contributor 4
-
----
-
-## 📄 License
-
-A license has not yet been specified. Add an appropriate license file if you intend to distribute the project for reuse.
-
----
