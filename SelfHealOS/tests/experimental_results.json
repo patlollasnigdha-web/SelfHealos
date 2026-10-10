@@ -1,0 +1,56 @@
+[
+    {
+        "test": "Test 1 -- CPU Overload",
+        "fault": "CPU_OVERLOAD",
+        "detected": "YES",
+        "classified": "YES",
+        "recovery": "SUCCESS",
+        "verification": "SUCCESS",
+        "time": "7.46s"
+    },
+    {
+        "test": "Test 2 -- Memory Pressure",
+        "fault": "MEMORY_OVERLOAD",
+        "detected": "YES",
+        "classified": "YES",
+        "recovery": "SUCCESS",
+        "verification": "SUCCESS",
+        "time": "6.79s"
+    },
+    {
+        "test": "Test 3 -- Process Abnormality",
+        "fault": "PROCESS_ABNORMALITY",
+        "detected": "YES",
+        "classified": "YES",
+        "recovery": "SAFE_STOP",
+        "verification": "SUCCESS",
+        "time": "6.56s"
+    },
+    {
+        "test": "Test 4 -- Normal System State",
+        "fault": "SYSTEM_NORMAL",
+        "detected": "NO FAULT (NORMAL)",
+        "classified": "YES (BASELINE)",
+        "recovery": "NOT_REQUIRED",
+        "verification": "SUCCESS",
+        "time": "2.15s"
+    },
+    {
+        "test": "Test 5 -- Recovery Success",
+        "fault": "CPU_OVERLOAD",
+        "detected": "YES",
+        "classified": "YES",
+        "recovery": "SUCCESS",
+        "verification": "SUCCESS",
+        "time": "4.7s"
+    },
+    {
+        "test": "Test 6 -- Recovery Failure / Safe Isolation",
+        "fault": "PROTECTED_OS_PROCESS",
+        "detected": "YES",
+        "classified": "YES",
+        "recovery": "SAFE_STOP",
+        "verification": "FAILED",
+        "time": "3.24s"
+    }
+]

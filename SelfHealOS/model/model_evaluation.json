@@ -1,0 +1,34 @@
+{
+    "samples": 320,
+    "features": [
+        "system_cpu",
+        "system_ram",
+        "disk_usage",
+        "top_process_cpu",
+        "top_process_ram"
+    ],
+    "contamination": 0.0906,
+    "accuracy": 0.9187,
+    "precision": 0.5517,
+    "recall": 0.5517,
+    "f1_score": 0.5517,
+    "confusion_matrix": [
+        [
+            278,
+            13
+        ],
+        [
+            13,
+            16
+        ]
+    ],
+    "true_positives": 16,
+    "false_positives": 13,
+    "true_negatives": 278,
+    "false_negatives": 13,
+    "anomaly_count": 29,
+    "normal_count": 291,
+    "mean_score": 0.0863,
+    "min_score": -0.1789,
+    "max_score": 0.1783
+}
